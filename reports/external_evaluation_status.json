@@ -1,0 +1,18 @@
+{
+  "status": "PENDING_EXTERNAL_RUN",
+  "benchmark_id": "orchestra-real-repo-v1",
+  "dataset_revision": "6ec7bb89b9342f664a54a6e0a6ea6501d3437cc2",
+  "manifest_sha256": "ac3a89a8f6e73a26c77f153ee4310ec9b6c3c7877d4a4878cca12c340d0f40c6",
+  "protocol_validated": true,
+  "pinned_tasks": 30,
+  "required_pinned_tasks": 30,
+  "reason": "A pinned public task manifest is present, but no model adapter or independent hidden evaluator was executed in this environment. The project does not claim a capability improvement.",
+  "required_artifacts": [
+    "immutable task commits and dataset revision",
+    "single-agent, fixed-orchestra, and adaptive-orchestra outputs",
+    "raw call/token/cost/latency/safety traces",
+    "hidden evaluator results",
+    "paired confidence intervals and ablations",
+    "independent clean-checkout reproduction"
+  ]
+}

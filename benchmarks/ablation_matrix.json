@@ -1,0 +1,12 @@
+{
+  "reference": "adaptive_orchestra",
+  "variants": [
+    {"id": "adaptive_orchestra", "disabled": []},
+    {"id": "ablation_no_router", "disabled": ["adaptive_router"]},
+    {"id": "ablation_no_memory", "disabled": ["evidence_memory"]},
+    {"id": "ablation_no_typed_messages", "disabled": ["typed_messages"]},
+    {"id": "ablation_no_verifier", "disabled": ["verifier_gates"]},
+    {"id": "ablation_no_budget", "disabled": ["budget_manager"]}
+  ],
+  "rule": "Run the same task, seed, model, tools, budgets, and hidden evaluator for every row; retain raw traces for every ablation."
+}

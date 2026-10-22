@@ -38,9 +38,29 @@
       "detail": ""
     },
     {
+      "check": "benchmark_protocol",
+      "status": "PASS",
+      "detail": "orchestra-real-repo-v1: ready"
+    },
+    {
+      "check": "external_status_is_explicit",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "ablation_matrix",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "analysis_entrypoint",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
       "check": "unit_tests",
       "status": "PASS",
-      "detail": "----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+      "detail": "----------------------------------------------------------------------\nRan 11 tests in 0.309s\n\nOK\n"
     }
   ],
   "claim_boundary": "fixture mechanism evidence only; external hidden benchmark required"

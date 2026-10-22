@@ -1,0 +1,19 @@
+{
+  "benchmark_id": "orchestra-real-repo-v1",
+  "claim": "Under the same model, tools, and resource budget, adaptive orchestration improves hidden-test success or reduces cost at the same success rate on repository maintenance tasks.",
+  "source": "SWE-bench Lite public task records, selected before execution",
+  "dataset_revision": "PIN_REQUIRED_BEFORE_RUN",
+  "minimum_tasks": 30,
+  "repetitions": 3,
+  "seeds": [11, 29, 47],
+  "variants": ["single_agent", "fixed_orchestra", "adaptive_orchestra"],
+  "status": "protocol_only",
+  "tasks": [],
+  "evaluator_requirements": [
+    "Tasks are pinned to immutable repository commits and a recorded dataset revision.",
+    "The hidden evaluator owns the acceptance tests and is outside the agent workspace.",
+    "All variants use the same model version, tool permissions, token budget, timeout, and seeds.",
+    "The evaluator records raw calls, tokens, cost, latency, safety violations, and final hidden-test status.",
+    "The evaluator is run from a clean checkout by an independent operator who cannot edit hidden tests."
+  ]
+}

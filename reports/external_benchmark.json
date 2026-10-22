@@ -1,0 +1,7 @@
+{
+  "status": "NOT_RUN_MODEL_ADAPTER_REQUIRED",
+  "benchmark_id": "orchestra-real-repo-v1",
+  "required_tasks": 30,
+  "pinned_tasks": 30,
+  "reason": "The real task manifest is ready, but an evaluator-owned model adapter was not supplied."
+}
