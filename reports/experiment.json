@@ -1,0 +1,89 @@
+{
+  "claim_boundary": "fixture mechanism evidence only; real benchmark required",
+  "rows": [
+    {
+      "calls": 5,
+      "cost": 0.51,
+      "failure_reason": null,
+      "latency_ms": 0,
+      "safety_violations": 0,
+      "success": true,
+      "task_id": "fixture-1",
+      "tokens": 500,
+      "trace_hash": "557af2eca45a7c98d78ffe0e1cc94e9f2070de65795ce7b460f5a9c99c880043",
+      "variant": "fixed_orchestra"
+    },
+    {
+      "calls": 5,
+      "cost": 0.51,
+      "failure_reason": null,
+      "latency_ms": 0,
+      "safety_violations": 0,
+      "success": true,
+      "task_id": "fixture-1",
+      "tokens": 500,
+      "trace_hash": "5aaa7fd1df01381346bf87fcc85885530002830466e6f81336e8e2c50544380d",
+      "variant": "adaptive_orchestra"
+    },
+    {
+      "calls": 5,
+      "cost": 0.51,
+      "failure_reason": null,
+      "latency_ms": 0,
+      "safety_violations": 0,
+      "success": true,
+      "task_id": "fixture-2",
+      "tokens": 500,
+      "trace_hash": "4b8cbd649a2834b9bc58a50bd526af3a65a260cb2b1032399fe36ae471cdd638",
+      "variant": "fixed_orchestra"
+    },
+    {
+      "calls": 5,
+      "cost": 0.51,
+      "failure_reason": null,
+      "latency_ms": 0,
+      "safety_violations": 0,
+      "success": true,
+      "task_id": "fixture-2",
+      "tokens": 500,
+      "trace_hash": "425f3c1a590b9fc0dd04a6a7fb95f99803e34ce264ae53eccb69464b233b7674",
+      "variant": "adaptive_orchestra"
+    },
+    {
+      "calls": 5,
+      "cost": 0.51,
+      "failure_reason": null,
+      "latency_ms": 0,
+      "safety_violations": 0,
+      "success": true,
+      "task_id": "fixture-3",
+      "tokens": 500,
+      "trace_hash": "b5639a9a1417a76d225ef65355f6bb28ffd2539ea19d14fd0ab7a29118f2223a",
+      "variant": "fixed_orchestra"
+    },
+    {
+      "calls": 5,
+      "cost": 0.51,
+      "failure_reason": null,
+      "latency_ms": 0,
+      "safety_violations": 0,
+      "success": true,
+      "task_id": "fixture-3",
+      "tokens": 500,
+      "trace_hash": "da4fa8ea2518e5bc4c44f5ad7c4f70ffb5fe3b22925d8cfbe56de184d7d5adbc",
+      "variant": "adaptive_orchestra"
+    }
+  ],
+  "summary": {
+    "adaptive_orchestra": {
+      "mean_cost": 0.51,
+      "pass_rate": 1.0,
+      "safety_violations": 0
+    },
+    "fixed_orchestra": {
+      "mean_cost": 0.51,
+      "pass_rate": 1.0,
+      "safety_violations": 0
+    }
+  }
+}

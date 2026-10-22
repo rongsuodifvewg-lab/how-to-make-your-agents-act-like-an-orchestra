@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "how-to-make-your-agents-act-like-an-orchestra"
+version = "0.1.0"
+description = "Verifier-gated adaptive multi-agent orchestration under fixed budgets"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["orchestra", "sandbox", "evals"]
+
+[project.scripts]
+orchestra-demo = "scripts.run_experiment:main"

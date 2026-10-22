@@ -1,0 +1,47 @@
+{
+  "gate": "ORCHESTRA-RELEASE",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "readme_exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "typed_schema",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "verifier_gate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "adaptive_router",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "resettable_fixture",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "experiment_runner",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "claim_boundary_documented",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "unit_tests",
+      "status": "PASS",
+      "detail": "----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+    }
+  ],
+  "claim_boundary": "fixture mechanism evidence only; external hidden benchmark required"
+}
